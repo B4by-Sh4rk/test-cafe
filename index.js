@@ -8,7 +8,7 @@ $(document).ready(function(){
           items: 3
       },
       1900:{
-          items: 4
+          items: 3
 
       }
     },
