@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    color: #181818;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background: white;
+}
+main{
+    margin: 15px;
+    background: #F5F5F4;
+    overflow: hidden;
+    padding: 40px;
+    height: fit-content;
+    border-radius: 20px;
+}
+h1{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 64px;
+    letter-spacing: -0.03em;
+}
+
+.container{
+    margin-top: 40px;
+    margin-bottom: 63px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container p{
+    width: 261px;
+    height: 120px;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #787878;
+}
+
+.owl-nav {
+    display: flex !important;
+}
+.owl-nav .prev{
+    position: absolute;
+    left: 10px;
+    bottom: 50%;
+}.owl-nav .next{
+    position: absolute;
+    right: 20px;
+    bottom: 50%;
+}
+.owl-nav img{
+    background-color: white;
+    border-radius: 50%;
+    padding: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+
+.card{
+    background: #FFFFFF;
+    padding: 7px;
+    width: 433px;
+    height: 532px;
+    text-align: left;
+    border-radius: 20px;
+}
+.card-title{
+    margin-top: 20px;
+    width: 399px;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: #181818;
+    margin:10px;
+}
+.card-info{
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+    color: #787878;
+    margin:10px;
+}
+.card-btns{
+    display: flex;
+    margin-top: 25px;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.card-btn{
+    display: flex;
+    gap: 48px;
+    align-items: center;
+    border-radius: 15px;
+    width: 192px;
+    height: 59px;
+    justify-content: center;
+}
+.green-btn{
+    background-color: #9CC91C;
+    color: white;
+}
+.grey-btn{
+    background: #F5F5F4;
+    color: #787878;
+    display: flex;
+    gap: 48px;
+    align-items: center;
+    border-radius: 15px;
+    width: 192px;
+    height: 59px;
+    justify-content: center;
+}
